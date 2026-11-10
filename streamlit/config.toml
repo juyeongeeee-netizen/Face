@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#C9A45C"
+backgroundColor = "#141A2E"
+secondaryBackgroundColor = "#1E2640"
+textColor = "#E9E2D0"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# 예상치 못한 오류가 나도 브라우저에 트레이스백·서버 경로를 보여주지 않는다 (서버 로그에는 남음)
+showErrorDetails = "none"

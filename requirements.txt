@@ -1,0 +1,7 @@
+# 실제로 테스트한 버전을 하한으로, 다음 메이저 버전 전까지 허용
+# (streamlit: file_uploader max_upload_size, download_button on_click="ignore", container key 사용)
+# (openai 3.x: httpx2 기반 SDK에서 테스트)
+streamlit>=1.67,<2
+openai>=3.48,<4
+python-dotenv>=1.2,<2
+Pillow>=13.0,<14
